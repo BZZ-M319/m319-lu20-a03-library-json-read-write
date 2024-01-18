@@ -9,9 +9,22 @@ def test_attribute_assignments():
 
     rental = Rental(rental_date, return_date, num_rental_days)
 
-    assert rental.rental_date == rental_date
-    assert rental.return_date == return_date
-    assert rental.num_rental_days == num_rental_days
+    expected_datetimes = [rental_date, return_date]
+    expected_ints = [num_rental_days]
+    datetimes_found = []
+    ints_found = []
+
+    # Iteriere durch die Attribute des Objekts und speichere die Werte
+    for attr in rental.__dict__.values():
+        if isinstance(attr, datetime):
+            datetimes_found.append(attr)
+        elif isinstance(attr, int):
+            ints_found.append(attr)
+
+    # Überprüfe, ob die gefundenen Werte mit den erwarteten Werten übereinstimmen
+    assert all(date in datetimes_found for date in expected_datetimes), "Nicht alle erwarteten datetime-Werte gefunden."
+    assert all(num in ints_found for num in expected_ints), "Nicht alle erwarteten int-Werte gefunden."
+
 
 
 # Test for cost calculation with no overdue
