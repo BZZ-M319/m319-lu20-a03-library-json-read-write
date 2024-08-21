@@ -1,0 +1,8 @@
+{
+  "files": [
+    "library.py",
+    "rental.py"
+  ],
+  "ignore": [],
+  "max": 5
+}

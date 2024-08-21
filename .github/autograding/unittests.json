@@ -1,0 +1,86 @@
+[
+  {
+    "name": "test_show_balance",
+    "function": "test_show_balance",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_init_books",
+    "function": "test_init_books",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_rental",
+    "function": "test_read_rental",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_add_rental_empty_books",
+    "function": "test_add_rental_empty_books",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_add_rental_existing_books",
+    "function": "test_add_rental_existing_books",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_add_rental_invalid_book_name",
+    "function": "test_add_rental_invalid_book_name",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_add_rental_multiple_rentals",
+    "function": "test_add_rental_multiple_rentals",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_int_valid_input",
+    "function": "test_read_int_valid_input",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_int_invalid_input",
+    "function": "test_read_int_invalid_input",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_date_valid_input",
+    "function": "test_read_date_valid_input",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_date_invalid_input",
+    "function": "test_read_date_invalid_input",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_attribute_assignments",
+    "function": "test_attribute_assignments",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_cost_no_overdue",
+    "function": "test_cost_no_overdue",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_cost_with_overdue",
+    "function": "test_cost_with_overdue",
+    "timeout": 10,
+    "points": 1
+  }
+]
